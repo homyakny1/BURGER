@@ -1,9 +1,13 @@
 <li>
-	{{name}}
+
+
+	<img src="/assets/images/burger.gif" width="40"> {{name}}
+
+	<br>
 
 	<button class="change-eat" data-id="{{id}}" data-neweat="{{eat}}">
-		{{#if eat}}Eat!{{/if}}
+		{{#if eat}}Eat!{{else}}Return!{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+	<button class="delete-burger" data-id="{{this.id}}">Throw it out!</button>
 </li>
