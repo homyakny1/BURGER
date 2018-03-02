@@ -1,12 +1,13 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "App where you can create burgers and move them around.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Eugene Khom",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -16,5 +17,13 @@
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homyakny1/BURGER.git"
+  },
+  "bugs": {
+    "url": "https://github.com/homyakny1/BURGER/issues"
+  },
+  "homepage": "https://github.com/homyakny1/BURGER#readme"
 }

@@ -1,6 +1,6 @@
 li {
+  font-size: 20px;
   padding: 5px;
-  margin: 5px;
   background: #faebd7;
 }
 
@@ -8,12 +8,45 @@ li {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
-
 .form-group {
   margin-bottom: 5px;
+}
+
+#Burger-Titele {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  background-image: linear-gradient(90deg, rgba(200, 0, 0, .5) 50%, transparent 50%), linear-gradient(rgba(200, 0, 0, .5) 50%, transparent 50%);
+  background-size: 50px 50px;
+}
+
+.container {
+  padding-top: 3%;
+  margin: 30px;
+}
+
+.row {
+  background: rgba(255, 255, 255, 0.808);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#addBurger {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  margin:2px;
+}
+h1{
+  font-size: 40px;
+}
+img{
+  margin: 3px;
 }
