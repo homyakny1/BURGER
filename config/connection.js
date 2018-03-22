@@ -3,8 +3,8 @@ var mysql = require("mysql");
 
 var connection = mysql.createConnection({
   port: 3306,
-  host: "mnwax9mxzow0k7hi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	",
-  user: "yg8hh5erl45y40w8	",
+  host: "mnwax9mxzow0k7hi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  user: "yg8hh5erl45y40w8",
   password: "elxv172nzxn6n07z",
   database: "burger_db"
 });
